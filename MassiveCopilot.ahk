@@ -94,8 +94,9 @@ LogStatus("Pedir prompt al usuario.")
 
 ;~ Obtener del usuario la pregunta que se le hara a Copilot.
 Gui, CopilotInput:+ToolWindow -SysMenu  ; Oculta los botones de cerrar, minimizar y maximizar
+Gui, CopilotInput:Font, s14, Segoe UI 
 Gui, CopilotInput:Add, Text,, Massive Copilot - Escribe una pregunta.
-Gui, CopilotInput:Add, Edit, vUserInput w400 h100, ¿Cómo puedo automatizar tareas repetitivas en mi trabajo para ahorrar tiempo y ser más eficiente? soy vendedor para Sony
+Gui, CopilotInput:Add, Edit, vUserInput w500 h150, ¿Cómo puedo automatizar tareas repetitivas en mi trabajo para ahorrar tiempo y ser más eficiente? soy vendedor para Sony
 
 ; Añadir los botones en la misma línea
 Gui, CopilotInput:Add, Button, x100 y+10 w80 gSubmit, OK
