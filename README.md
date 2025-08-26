@@ -5,6 +5,9 @@
 Esta aplicación de escritorio para Windows utiliza Google Chrome
 para conectarse al sitio web oficial de Copilot de Microsoft.
 
+* Demostración de ejecución
+  https://youtu.be/c2I00sJTGMA
+
 * ¿Qué hace?
 - Solicita al usuario una pregunta mediante un InputBox.
 - Accede automáticamente a Copilot en línea (con conexión a Internet).
